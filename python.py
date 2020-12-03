@@ -64,7 +64,7 @@ if m1 == 2:
                     sys.exit()
                 except:
                     pass
-            req = requests.get("https://api.hackertarget.com/lookup/?q" , site).text
+            req = requests.get("https://api.hackertarget.com/dnslookup/?q" , site).text
             print(req)
         except:
             try:
