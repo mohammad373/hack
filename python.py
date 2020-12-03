@@ -5,7 +5,7 @@ print(Fore.RED + "Hello . I`m Bot Welcome Back ;)\n")
 time.sleep(1)
 print(Fore.RED+"[1]"+Fore.GREEN+"Cloud Flare ;)")
 print(Fore.RED+"[2]"+Fore.GREEN+"Scan Web Site 2 ;)")
-m1 = int(input("Enter You Number 1 / 2  ==>  "))
+m1 = int(input(Fore.BLACK"\nEnter You Number 1 / 2  ==>  "))
 
 
 
@@ -32,7 +32,7 @@ if m1 == 1:
                 try:
                     host = str(item) + "." + str(site)
                     bypass = requests.gethostbyname(str(host))
-                    print("Your ip ==> " + str(bypass) + " | " + str(host))
+                    print(Fore.GREEN+"Your ip ==> " +Fore.RED+str(bypass) +Fore.GREEN+" | " +Fore.RED+str(host))
                 except:
                     pass
         except:
