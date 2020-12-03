@@ -1,11 +1,11 @@
 # hack
 from colorama import Fore
 import time
-print(Fore.RED"Hello . I`m Bot Welcome Back ;)\n")
+print(Fore.RED + "Hello . I`m Bot Welcome Back ;)\n")
 time.sleep(1)
-print(Fore.RED"[1]" + Fore.GREEN"Cloud Flare ;)")
-print(Fore.RED"[2]" + Fore.GREEN"Scan Web Site 2 ;)")
-m1 = int(input(Fore.BLUE) + "Enter You Number 1 / 2 " + Fore.RED"==>  "))
+print(Fore.RED + "[1]" + Fore.GREEN"Cloud Flare ;)")
+print(Fore.RED + "[2]" + Fore.GREEN"Scan Web Site 2 ;)")
+m1 = int(input(Fore.BLUE + "Enter You Number 1 / 2 " + Fore.RED"==>  "))
 
 
 
