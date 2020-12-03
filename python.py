@@ -117,7 +117,7 @@ if m1 == 4 :
                     pass
             site = socket.gethostbyname(str(site))
             info = ipapi.location(ip = site , key = None , field = None)
-            print(Fore.YELLOW + "ip ==> " info[ip])
+            print(Fore.YELLOW + "ip ==> " info["ip"])
 
 
 
