@@ -102,6 +102,7 @@ if m1 == 4 :
     import sys
     import time
     from colorama import Fore
+    import socket
 
     def __s__():
         try:
@@ -114,6 +115,7 @@ if m1 == 4 :
                     sys.exit()
                 except:
                     pass
+            site = socket.gethostbyname(str(site))
             info = ipapi.location(ip = site , key = None , field = None)
             print(Fore.YELLOW + "ip ==> " info[ip])
 
