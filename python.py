@@ -6,7 +6,8 @@ time.sleep(1)
 print(Fore.RED+"[1]"+Fore.GREEN+"Cloud Flare ;)")
 print(Fore.RED+"[2]"+Fore.GREEN+"Scan Web Site 2 ;)")
 print(Fore.RED+"[3]"+Fore.GREEN+"Ip Web Site Not Cloud Flare ;)")
-m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2 / 3  ==>  "))
+print(Fore.RED+"[4]"+Fore.GREEN+"whois ;)")
+m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2 / 3 / 4 ==>  "))
 
 
 
@@ -95,4 +96,44 @@ if m1 == 3:
 
 
 
+if m1 == 4 :
+    import ipapi
+    import requests
+    import sys
+    import time
+    from colorama import Fore
+
+    def __s__():
+        try:
+            print(Fore.RED + "Hello . Welcome Back ;)")
+            site = inpur(Fore.YELLOW + "Enter Your Address WbSite ==> ")
+            if site == "":
+                try:
+                    print(Fore.YELOOW + "You Are 5 Sec Go To The Mano ;)")
+                    time.sleep(5)
+                    sys.exit()
+                except:
+                    pass
+            info = ipapi.location(ip = site , key = None , field = None)
+            print(Fore.YELLOW + info)
+
+
+
+
+
+        except:
+            pass
+    __s__()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
