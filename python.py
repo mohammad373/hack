@@ -107,7 +107,7 @@ if m1 == 4 :
     def __s__():
         try:
             print(Fore.RED + "Hello . Welcome Back ;)")
-            site = inpur(Fore.YELLOW + "Enter Your Address WbSite ==> ")
+            site = input(Fore.YELLOW + "Enter Your Address WbSite ==> ")
             if site == "":
                 try:
                     print(Fore.YELOOW + "You Are 5 Sec Go To The Mano ;)")
@@ -116,7 +116,7 @@ if m1 == 4 :
                 except:
                     pass
 
-            info = ipapi.location(ip = site , key = None , field = None)
+            info = ipapi.location(ip = site , key =None , field =None)
             try:
                 print (Fore.GREEN+" [!]"+Fore.BLUE+" ip = "+ info["ip"])
             except:
