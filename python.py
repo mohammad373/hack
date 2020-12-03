@@ -3,10 +3,10 @@ from colorama import Fore
 import time
 print(Fore.RED + "Hello . I`m Bot Welcome Back ;)\n")
 time.sleep(1)
-print(Fore.RED+"[1]"+Fore.GREEN+"Cloud Flare ;)")
-print(Fore.RED+"[2]"+Fore.GREEN+"Scan Web Site 2 ;)")
-print(Fore.RED+"[3]"+Fore.GREEN+"Ip Web Site Not Cloud Flare ;)")
-print(Fore.RED+"[4]"+Fore.GREEN+"whois ;)")
+print(Fore.RED+"[1]"+Fore.GREEN+" Cloud Flare ;)")
+print(Fore.RED+"[2]"+Fore.GREEN+" Scan Web Site 2 ;)")
+print(Fore.RED+"[3]"+Fore.GREEN+" Ip Web Site Not Cloud Flare ;)")
+print(Fore.RED+"[4]"+Fore.GREEN+" whois ;)")
 m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2 / 3 / 4 ==>  "))
 
 
@@ -93,7 +93,7 @@ if m1 == 3:
 
     _name__()
 
-
+# _____________________________________________________________________________________________________
 
 
 if m1 == 4 :
