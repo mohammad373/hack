@@ -65,7 +65,7 @@ if m1 == 2:
             except:
                 pass
     __start__()
-if m1 >=3 :
+if m1 >= 5 :
     print(Fore.RED +"[!]"+Fore.GREEN+"This In Not Found ;)")
     
 # ___________________________________________________________________________
