@@ -115,7 +115,7 @@ if m1 == 4 :
                 except:
                     pass
             info = ipapi.location(ip = site , key = None , field = None)
-            print(Fore.YELLOW + info)
+            print(Fore.YELLOW + "ip ==> " info[ip])
 
 
 
