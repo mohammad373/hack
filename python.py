@@ -73,7 +73,7 @@ if m1 >=3 :
 if m1 == 3:
 
     import os
-    impor sys
+    import sys
     import socket
     import time
     def _name__():
