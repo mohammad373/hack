@@ -115,9 +115,12 @@ if m1 == 4 :
                     sys.exit()
                 except:
                     pass
-            site = socket.gethostbyname(str(site))
+
             info = ipapi.location(ip = site , key = None , field = None)
-            print (Fore.GREEN+" [!]"+Fore.BLUE+" ip = "+ info["ip"])
+            try:
+                print (Fore.GREEN+" [!]"+Fore.BLUE+" ip = "+ info["ip"])
+            except:
+                pss
 
 
 
