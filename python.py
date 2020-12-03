@@ -119,6 +119,7 @@ if m1 == 4 :
             info = ipapi.location(ip = site , key =None , field =None)
             try:
                 print (Fore.GREEN+" [!]"+Fore.BLUE+" ip = "+ info["ip"])
+                print(info)
             except:
                 pss
 
