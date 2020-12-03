@@ -10,39 +10,28 @@ m1 = int(input(Fore.YELLOW+"\nEnter You Number 1 / 2  ==>  "))
 
 
 if m1 == 1:
-    import sys
-    import time
-    import socket
-    from colorama import Fore
 
+    import sys
+    import socket
+    import time
+    from colorama import Fore
     def __name__():
-        try:
-            print(Fore.RED+"Hello . Welcome Back ;)")
-            time.sleep(2)
-            site = input("\nEnter Your Address WebSite ==> ")
-            if site == "":
-                try:
-                    print("Error . You Are 5 Sec  Go To The Mano ;)")
-                    time.sleep(5)
-                    sys.exit()
-                except:
-                    pass
-            my_list = ["www" , "cpanel"]
-            for item in my_list:
-                try:
-                    host = str(item) + "." + str(site)
-                    bypass = requests.gethostbyname(str(host))
-                    print(Fore.GREEN+"Your ip ==> " +Fore.RED+str(bypass) +Fore.GREEN+" | " +Fore.RED+str(host))
-                except:
-                    pass
-        except:
+        print(Fore.RED+"Hello . I`m Bot \nCan I Help You?\n")
+        site = input(Fore.YELLOW+"Enter Your Address WebSite ==>  ")
+        if site == "":
             try:
-                print("You Are 5 Sec Go TO The Mano")
+                print("You Are 5 Sec Go To The Mano ;)")
                 time.sleep(5)
                 sys.exit()
             except:
                 pass
+        my_list = ["www" , "cpanel"]
+        for item in my_list:
+            hosts = str(item) + "." + str(site)
+            bypass = socket.gethostbyname(str(hosts))
+            print(Fore.YELLOW+"your ip ==> "+Fore.RED + str(bypass) + Fore.YELLOW +" | " + Fore.RED +str(hosts))
     __name__()
+
 
 # ___________________________________________________________________
 
